@@ -1,0 +1,16 @@
+{
+  "exp_name": "simple_mnist",
+  "model_dir":"./output",
+  "lr": 0.001,
+  "decay": 0.0,
+  "epochs": 10,
+  "batch_size": 64,
+  "gpu_index":"0",
+  "num_classes": 10,
+  "optim": "SGD",
+  "momentum": 0.9,
+  "weight_decay": 5e-4,
+  "workers": 2,
+  "seed": 8,
+  "device":"cuda"
+}
